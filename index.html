@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl" xmlns="http://www.w3.org/1999/html">
 <head>
+    <meta name="viewport" content="initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -298,7 +299,7 @@
 
         <div class="map_box">
 
-            <div class="map"></div>
+            <div id="map"></div>
 
 
             <div class="form_box">
@@ -377,14 +378,12 @@
         </footer>
     <script src="js/jquery-3.1.1.min.js" type="text/javascript" rel="script"></script>
 
-    <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
 
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js"></script>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRz9KuEBOzUlMRMvYh53S_IYpyIMt1dUI &callback=initMap" async defer></script>
+
     <script src="js/app.js" type="text/javascript" rel="script"></script>
-    <script src="js/gmaps.js" type="text/javascript" rel="script"></script>
     </body>
 </html>
 

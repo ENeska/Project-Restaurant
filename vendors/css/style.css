@@ -437,7 +437,7 @@ blockquote {
     position: relative;
 }
 
-.map {
+#map {
     height: 650px;
     z-index: 4;
 }
