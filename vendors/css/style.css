@@ -53,6 +53,19 @@ header {
     z-index: 1;
 }
 
+.button_head {
+    margin-top: 40px;
+    position: absolute;
+    top:55%;
+}
+
+h1{
+    position: absolute;
+    top: 40%;
+}
+
+
+
 nav ul {
     display: flex;
     justify-content: flex-end;
@@ -176,9 +189,6 @@ h2:after {
     color: white;
 }
 
-.header_text {
-    padding: 250px 0 0 0;
-}
 
 /* Section Food delivery */
 

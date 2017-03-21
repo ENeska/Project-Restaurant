@@ -1,199 +1,125 @@
 /*Big tablet to 1200px - widths smaller that the 1140px row */
 @media only screen and (max-width: 1200px){
     .row {
-        padding: 0 2%;
+        padding:60px 2% 80px 2%;
         margin: 0 auto;
-        padding-bottom: 80px;
-        padding-top: 60px;
     }
 
-    .iphone {
-        text-align: center;
-    }
+    .iphone { text-align: center; }
 
     .number { padding-left: 0; }
 
-    .logo {
-        margin-left: 2%;
-    }
+    .sticky .logo_black { margin-left: 2%; }
 
-    .sticky .logo_black {
-        margin-left: 2%;
-    }
-
-    .header_text {
-        margin-left: 2%;
-    }
-
-    .form_box h2{
-        font-size: 130%;
-    }
-
-
+    .form_box h2{ font-size: 130%; }
 }
 
 /*Small tablet to big tablet from 768 to 1023px */
 @media only screen and (max-width: 1023px){
 
-    .row {
-        padding-bottom: 60px;
-        padding-top: 45px;
-    }
+    .row { padding: 45px 2% 60px 2%; }
 
     body { font-size: 18px; }
-
-    .head p { width: 85%; }
-
-    .header_text {
-        margin-left: 2%;
-    }
-
-
-    .ofood_detail { padding-right: 3%; }
-
-    .contact_form { width: 95%; }
-
-    .iphone {
-        text-align: center;
-        padding-left: 0;
-    }
-
-    .phone_flex {
-        flex: 1.2;
-    }
-
-    .number { padding-left: 0; }
-
-    .offer_block ul li { font-size: 87%; }
-
-
-    footer p { padding-bottom: 20px; }
-
-    .nav { padding: 30px 0; }
-
-    .number_text p {
-        font-size: 97%;
-        padding: 45px 0 0 10px; }
-
-    .number p {
-            margin-top: 45px;
-            width: 45px;
-            height: 43px; }
-
-    .number_text a img {
-        height: 45px;
-        padding: 60px 0 0 10px; }
-
-    .pay_table { width: 31%; }
-
-    .price { font-size: 280%; }
-
-    form {
-        padding: 0;
-    }
-
-    .form_box h2{
-        font-size: 110%;
-    }
-
-    .form_box h2:after {
-        margin: 20px auto 10px auto;
-    }
-
-    .contact_form {
-        width: 90%;
-    }
-
-    .contact_form ul li {
-        display: flex;
-        flex-flow: column nowrap;
-        padding-top: 2%;
-    }
-
-
-    #label_name, #label_mail, #label_select, #label_msg, #newsletter {
-        margin-bottom: 2%;
-        flex:1;
-    }
-
-    #name,#email, #find_us, #msg{
-        margin-bottom: 4%;
-        flex: 1;
-    }
-
-    .check_yes {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-start;
-    }
-
-    #news {
-        flex: 0.08;
-    }
 
     .property_btn {
         width: 140px;
         height: 40px;
     }
 
+    /* Section Food delivery */
+    .head p { width: 85%; }
 
+    .ofood_detail { padding-right: 3%; }
 
+    /*Section phone */
+    .iphone {
+        padding-left: 0;
+    }
 
+    .phone_flex { flex: 1.2; }
 
+    .number_text p {
+        font-size: 97%;
+        padding: 45px 0 0 10px; }
+
+    .number p {
+        margin-top: 45px;
+        width: 45px;
+        height: 43px; }
+
+    .number_text a img {
+        height: 45px;
+        padding: 60px 0 0 10px; }
+
+    /* Section pay */
+    .pay_table { width: 31%; }
+
+    .price { font-size: 280%; }
+
+    .offer_block ul li { font-size: 87%; }
+
+    /*Section form */
+    form { padding: 0; }
+
+    .form_box h2{ font-size: 110%; }
+
+    .form_box h2:after { margin: 20px auto 10px auto; }
+
+    .contact_form { width: 90%; }
+
+    .contact_form ul li {
+        display: flex;
+        flex-flow: column nowrap;
+        padding-top: 3.2%;
+    }
+
+    .contact_form { width: 95%; }
+
+    #label_name, #label_mail, #label_select, #label_msg, #newsletter {
+        margin-bottom: 2%;
+    }
+
+    #name,#email, #find_us, #msg{
+        margin-bottom: 4%;
+    }
+
+    /* Section footer */
+    footer p { padding-bottom: 20px; }
+
+    .nav { padding: 30px 0; }
 }
 
 /* Small phones to small tablet from 481 to 767px */
 @media only screen and (max-width: 767px){
 
-    body {
-        font-size: 16px;
-    }
+    body { font-size: 16px; }
 
-    .row {
-        padding: 0 5%;
-    }
-    .row {
-        padding-bottom: 35px;
-        padding-top: 35px;
+    .row { padding: 35px 5%;
     }
 
     .logo {
         height: 90px;
-        margin-left: 4%;
     }
 
-    .header_text {
-        margin-left: 4%;
-    }
+    h1 { font-size: 180%; }
 
-    .header_text .full_btn {
-        position: absolute;
-        top: 50vh;
-    }
+    h2 { font-size: 140%; }
 
-    .header_text.empty_btn {
-        position: absolute;
-        top: 50vh;
-        left: 25vh;
-    }
+    h2:after { margin: 30px auto 30px auto; }
 
-    h1 {
-        font-size: 180%;
-    }
-
-    h2 {
-        font-size: 140%;
-    }
-
-    h2:after {
-        margin: 30px auto 30px auto;
-    }
-
+    /*Section Food delivery */
     .head p {
         width: 100%;
         text-align: justify;
     }
 
+    .button_head {
+        margin-top: 20px;
+    }
+
+    .ofood {
+        flex-flow: row wrap;
+    }
     .ofood_detail {
         flex: 70%;
         margin-top: 10px;
@@ -202,12 +128,9 @@
 
     .ofood_detail p { font-size: 100%;}
 
-    .icon_big {
-        font-size: 200%;
-        color: #e67e22;
-        margin-bottom: 10px;
-    }
+    .icon_big { font-size: 200%; }
 
+    /* Section gallery */
     .gallery1,
     .gallery2 {
         display: flex;
@@ -215,35 +138,22 @@
         justify-content: center;
     }
 
-    .photo {
-        width: 40%;
-    }
+    .photo { width: 40%; }
 
-    .work_detail {
-        display: flex;
-        flex-flow: column wrap;
-    }
-
-    .work_detail img {
-        width: 45%;
-    }
-
+    /*Section phone */
+    .work_detail { flex-flow: column wrap; }
 
     .iphone {
-        flex: 0.8;
-        text-align: center;
         width: 70%;
         margin: 0 auto;
     }
 
     .phone_flex {
-        display: flex;
         width:80%;
         margin: 0 auto;
     }
 
     .number {
-        flex:0.5;
         padding-left: 2%;
         height: 280px;
     }
@@ -251,53 +161,40 @@
     .number p {
         font-size: 20px;
         margin-top: 40px;
-        border: 2px solid #e67e22;
         width:35px;
         height: 35px;
         padding-top: 2px;
     }
 
-    .number_text {
-        flex: 6;
-    }
-
-    .number_text p {
-        padding: 40px 0 0 20px;
-    }
+    .number_text p { padding: 40px 0 0 20px; }
 
     .number_text a img {
         height: 40px;
-        width: auto;
         padding: 50px 0 10px 10px;
     }
-    .button_app {
-        text-align: center;
-    }
 
+    .button_app { text-align: center; }
+
+
+    /* Section city */
     .city_box {
         flex-flow: row wrap;
         justify-content:space-around;
     }
 
-    .city:first-child {
-        padding-left: 0;
-    }
+    .city:first-child { padding-left: 0; }
 
     .city {
         width: 48%;
         margin-bottom: 7%;
     }
 
-    .city h3 {
-        padding-bottom: 10px;
-    }
+    .city h3 { padding-bottom: 10px; }
 
-    .city img {
-        width: 100%;
-    }
+    .city img { width: 100%; }
 
+    /* Section opinion customer */
     .customer_box {
-        display: flex;
         flex-flow: row wrap;
         justify-content:space-around;
     }
@@ -307,20 +204,20 @@
         height: 40px;
     }
 
-    blockquote {
-        font-size: 100%;
-        margin-bottom: 5%;
-    }
+    blockquote { margin-bottom: 5%; }
 
     .client_img {
         border-radius: 50%;
         width: 50px;
+        margin-right: 10px;
     }
 
     .client {
         margin-bottom: 5%;
         width: 80%;
     }
+
+    /* Section pay */
 
     .pay_box {
         display: flex;
@@ -333,70 +230,42 @@
         margin-bottom: 4%;
 
     }
-    .pay_table div {
-        padding: 6% 10% 6% 10%;
-    }
+    .pay_table div { padding: 6% 10% 6% 10%; }
 
-    .offer_block ul li i {
-
-        padding-right: 15px;
-    }
+    .offer_block ul li i { padding-right: 15px; }
 
     .price {
         letter-spacing: 0.07em;
         font-weight: 300;
     }
 
-    form {
-        padding: 0;
+    /* Section form */
+    .form_box h2{ font-size: 150%; }
+
+    .contact_form ul li { padding-top: 1%; }
+
+    .form_box {
+        position: relative;
+        width: 100%;
     }
 
-    .contact_form {
-        width: 90%;
+    .map_box {
+        width: 100%;
+        height: auto;
+        position: relative;
     }
 
-    .contact_form ul li {
-        display: flex;
-        flex-flow: column nowrap;
-        padding-top: 5%;
+    #map {
+        width: 100%;
+        height: 400px;
     }
-
-
-    #label_name, #label_mail, #label_select, #label_msg, #newsletter {
-         margin-bottom: 2%;
-        flex:1;
-     }
-
-    #name,#email, #find_us, #msg{
-        margin-bottom: 4%;
-        flex: 1;
-    }
-
-    .check_yes {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-start;
-    }
-
-    #news {
-        flex: 0.08;
-    }
-
-    .property_btn {
-        width: 140px;
-        height: 40px;
-    }
-
+    /* Nav */
      nav ul {
-         flex-flow: column wrap;
          padding-left: 25%;
          float: left;
     }
 
-     nav ul li {
-         line-height: 2.2em;
-         border: 0;
-     }
+     nav ul li { line-height: 2.2em; }
 
      nav ul li a {
          border: 0;
@@ -405,9 +274,8 @@
 
     nav ul {display: none;}
 
-     nav ul li a:hover {
-         border: 0;
-     }
+     nav ul li a:hover { border: 0; }
+
     .mobile_nav_icon {
         display: flex;
         float: right;
@@ -415,10 +283,7 @@
         padding-right: 4%;
        }
 
-
-    .sticky ul li {
-        margin: 3px 0 0 0;
-    }
+    .sticky ul li { margin: 3px 0 0 0; }
 
     .sticky ul {
         margin-top: 10px;
@@ -428,127 +293,67 @@
     .sticky .mobile_nav_icon i {
         margin-top: 15px;
         color: #555}
-
-
-    h1 {
-        margin-top: 0;
-    }
-
-    .form_box h2{
-        font-size: 150%;
-    }
-
-    .contact_form ul li {
-        padding-top: 1%;
-    }
-
-    .map_box {
-        width: 100%;
-        height: auto;
-        position: relative;
-
-    }
-
-
-    #map {
-        width: 100%;
-        height: 400px;
-    }
-
-    .form_box {
-        position: relative;
-        width: 100%;
-        height: auto;
-
-        background: white;
-        opacity: 0.9;
-
-    }
-
-
-
 }
 
 /*Small phones 0 to 480px */
 @media only screen and (max-width: 480px){
 
-    h1 {
-        font-size: 150%;
-    }
+    h1 { font-size: 150%; }
 
-    h2 {
-        font-size: 110%;
-    }
+    h2 { font-size: 110%; }
 
-    h2:after {
-        margin: 30px auto 30px auto;
-    }
-
-    .ofood_detail p { font-size: 95%;}
+    h2:after { margin: 30px auto 30px auto; }
 
     h3 {
         font-size: 100%;
         margin-bottom: 15px;
     }
-
-    .phone_flex {
-        width: 100%;
+    .button_head {
+        margin-top: 20px;
     }
+
+    .phone_flex { width: 100%; }
 
     .number_text {
         margin-top: 10px;
     }
     .number_text p {
         padding: 20px 0 0 10px;
-        font-size: 95%;
-    }
-
-    .number {
-        flex:0.5;
     }
 
     .number p {
-        font-size: 20px;
         margin-top: 30px;
-        border: 2px solid #e67e22;
-        width:30px;
+        width: 30px;
         height: 30px;
         padding-top: 2px;
     }
 
     .number_text a img {
         height: 30px;
-        width: auto;
         padding: 30px 0 10px 10px;
     }
 
-    .button_app {
-        text-align: left;
-    }
+    .button_app { text-align: left; }
 
     .city {
         width: 90%;
         margin-bottom: 7%;
     }
 
-    .city h3 {
-        padding-bottom: 0;
-    }
+    .city h3 { padding-bottom: 0; }
 
-    .city p {
-        padding-bottom: 0;
-    }
+    .city p { padding-bottom: 0; }
 
-    .contact_form {
-        width: 100%;
+    .contact_form { width: 100%; }
+
+    .contact_form ul li {
+        margin-bottom: 4%;
     }
 
     .property_btn {
         padding: 0;
-        font-size: 80%;
         width: 100px;
         height: 35px;
-
     }
 
     footer p { padding-bottom: 15px; }
@@ -563,11 +368,7 @@
         padding-left:7px;
     }
 
-    .pay_table {
-        width: 90%;
-
-    }
-
+    .pay_table { width: 90%;  }
 }
 
 
