@@ -6,3 +6,6 @@ Wykorzystuję następujące technologie:
 <li> HTML5, </li>
 <li> CSS3 (flexbox), </li>
 <li> JQuery (scroll, animation, google maps). </li>
+</ul>
+
+Link: https://eneska.github.io/Project_2/
